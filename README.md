@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name :A.NIVETHA
+Roll no :212222230101
+Date of experiment :20/02/24
 
 
 
@@ -78,25 +78,63 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
+```
+org 100h
 
+mov ax,0a123h;
+mov bx,0b456h;
+add ax,bx;
+mov [1234h],ax;
 
-
+ret
+```
 ## Output  
- 
+ ![307847544-c232ca60-be64-4ef8-992e-99fc5588fd14](https://github.com/nivetharajaa/EXPERIMENT--01-ALP-FOR-8086/assets/120543388/dd54dc21-3dc4-456f-8300-8830328e50c3)
+
 ## Subtraction   of 8 bit numbers  ALP 
- 
-## Output  
-## Multiplication alp 
- ## Output  
+```
+ org 100h
 
+mov ax,0d101h;
+mov bx,0c789h;
+sub ax,bx;
+mov [5678h],ax;
+
+ret
+```
+## Output  
+![307847678-5da92a84-e146-4033-96a6-6421db35165b](https://github.com/nivetharajaa/EXPERIMENT--01-ALP-FOR-8086/assets/120543388/8f89893c-4708-4ee8-a04b-a3cc45c61612)
+
+## Multiplication alp 
+```
+org 100h
+
+mov ax,0e112h;
+mov bx,0f131h;
+mul bx;
+mov [9101h],ax;
+
+ret
+```
+ ## Output  
+![307847966-3e24f8c8-de1b-4080-9e53-ce964941320d](https://github.com/nivetharajaa/EXPERIMENT--01-ALP-FOR-8086/assets/120543388/6838ed32-c1a0-4454-9e96-32a993514217)
 
 ## Division alp 
+```
+org 100h
 
+mov ax,0b161h;
+mov bx,0a415h;
+div bx;
+mov [1121h],ax;
+
+ret
+```
 ## Output  
-
+![307848090-a9a86522-9feb-4e0d-8082-0a21aa27f9a7](https://github.com/nivetharajaa/EXPERIMENT--01-ALP-FOR-8086/assets/120543388/5143308c-fc0f-46cd-b5a3-dcc0d7e4095c)
 
 ## Result :
- 
+ The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
 
 
 
