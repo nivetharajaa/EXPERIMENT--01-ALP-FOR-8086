@@ -1,8 +1,8 @@
-# EXPERIMENT--01-ALP-FOR-8086
 ### Name :A.NIVETHA
 
 ### Roll no :212222230101
 
+# EXPERIMENT--01-ALP-FOR-8086
 
 ## Aim:
 To Write and execute ALP on fundamental arithmetic and logical operations
