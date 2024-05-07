@@ -139,6 +139,60 @@ ret
 ## Output  
 ![307848090-a9a86522-9feb-4e0d-8082-0a21aa27f9a7](https://github.com/nivetharajaa/EXPERIMENT--01-ALP-FOR-8086/assets/120543388/5143308c-fc0f-46cd-b5a3-dcc0d7e4095c)
 
+### Programs for logical operations 
+
+### AND
+```
+org 100h
+mov bx,1000h;
+and bx,1111h;
+mov [0040h+02],bx;
+ret
+```
+### Output
+
+![322874623-e82a2b12-23e6-4b22-b667-c2cc559d6be0](https://github.com/nivetharajaa/EXPERIMENT--01-ALP-FOR-8086/assets/120543388/e98324c7-30d2-4738-951a-bbd98544d1fa)
+
+### OR
+```
+org 100h
+mov ax,[0040h+06];
+mov bx,1000h;
+or ax,bx;
+mov [0040h+02],ax;
+ret
+```
+### Output
+
+![322874925-f9a9afae-50d6-4c69-8a8c-d221667db9ff](https://github.com/nivetharajaa/EXPERIMENT--01-ALP-FOR-8086/assets/120543388/65a56dcd-a377-4f43-86f5-5330f61064cc)
+
+### NOT
+```
+org 100h
+mov bx,0040h;
+mov ax,[bx]; 
+not al;
+mov [0040h+04],ax;
+ret
+```
+### Output
+
+![322875293-45591835-4640-4b2c-ac50-e370723c3388](https://github.com/nivetharajaa/EXPERIMENT--01-ALP-FOR-8086/assets/120543388/2c3e21ec-4777-4ba7-aa7e-d67658a62f3d)
+
+### XOR
+```
+org 100h
+mov bx,0040h;
+mov ax,[bx]; 
+xor ax,bx;
+mov [0040h+04],ax;
+ret
+```
+### Output
+
+![322875549-e2595b3a-14e1-42dd-a890-1a44adefe1e8](https://github.com/nivetharajaa/EXPERIMENT--01-ALP-FOR-8086/assets/120543388/cf588bbd-1c85-4d03-8224-2dd352b43634)
+
+
 ## Result :
  The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
 
